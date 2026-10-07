@@ -1,0 +1,10 @@
+[server]
+port = 8501
+
+# headless = true skips Streamlit's interactive "enter your email" prompt on startup.
+# It also disables Streamlit's own browser auto-open, so run-frontend.ps1 opens the
+# browser itself once the port is up.
+headless = true
+
+[browser]
+gatherUsageStats = false
